@@ -1,4 +1,5 @@
 import React from 'react'
+import './banneritem.component.css';
 
 function BannerItem({image}) {
     return (
