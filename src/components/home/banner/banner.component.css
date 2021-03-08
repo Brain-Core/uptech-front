@@ -1,0 +1,18 @@
+.d-block{
+    object-fit: contain !important;
+}
+
+.carousel{
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+
+   
+}
+
+
+@media (min-width: 320px) and (max-width: 580px) {
+    .carousel{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
