@@ -1,10 +1,14 @@
 
 import './App.css';
-
+import HeaderTop from './components/header/header_top/headertop.component';
+import { BrowserRouter as Router} from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      <h1>Hello UP-tech</h1>
+      <Router>
+        <HeaderTop/>
+      </Router>
+      
     </div>
   );
 }

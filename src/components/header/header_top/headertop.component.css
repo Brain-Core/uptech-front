@@ -1,0 +1,14 @@
+.header__top{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.header__top > p{
+    margin-top: 13px;
+}
+
+.header__mail{
+    color:#16ABEC;  
+}
