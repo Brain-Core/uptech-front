@@ -11,8 +11,8 @@ function Banner() {
         <div id="carouselExampleSlidesOnly" className="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
          {/* <BannerItem image={poule}/> */}
-         {/* <BannerItem image={agro}/> */}
-         <BannerItem image={vegetable}/>
+         <BannerItem image={agro}/>
+         {/* <BannerItem image={vegetable}/> */}
         </div>
       </div>
     )
