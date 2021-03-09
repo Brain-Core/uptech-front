@@ -1,0 +1,8 @@
+.home__separator{
+    background-color: #16ABEC;
+}
+
+.home__separator > h1{
+    text-align: center;
+    color: #fff;
+}
