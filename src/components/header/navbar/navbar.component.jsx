@@ -18,19 +18,19 @@ function NavBar() {
                 <Link className="nav-link text-light font-weight-bold active" aria-current="page" to="/">Home</Link>
                 </li>
                 <li className="nav-item">
-                <Link className="nav-link text-light" to="/product">Products</Link>
+                <Link className="nav-link text-light font-weight-bold" to="/product">Products</Link>
                 </li>
                 <li className="nav-item">
-                <Link className="nav-link text-light" to="/impact">Impacts</Link>
+                <Link className="nav-link text-light font-weight-bold" to="/impact">Impacts</Link>
                 </li>
                 <li className="nav-item">
-                <Link className="nav-link text-light" to="/partner">Partnes</Link>
+                <Link className="nav-link text-light font-weight-bold" to="/partner">Partnes</Link>
                 </li>
                 <li className="nav-item">
-                <Link className="nav-link text-light" to="#">OurTeam</Link>
+                <Link className="nav-link text-light font-weight-bold" to="#">OurTeam</Link>
                 </li>
                 <li className="nav-item">
-                <Link className="nav-link text-light" to="#">Contact Us</Link>
+                <Link className="nav-link text-light font-weight-bold" to="#">Contact Us</Link>
                 </li>
             </ul>
             </div>

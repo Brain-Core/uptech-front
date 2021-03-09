@@ -1,0 +1,33 @@
+.card{
+    width: 15rem !important;
+    margin: 5px;
+    transition: transform .3s ease;
+    cursor: pointer;
+}
+
+.card-body > p{
+    min-height: 10px;
+    background-color: #16ABEC;
+    color: #ffffff;
+    text-align: center;
+    line-height: 54px;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+
+.card-img-top{
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+} 
+
+.product__imgBox{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    min-height: 40px;
+    width: calc(25% - 10px );
+    left: 74.95%;
+}
