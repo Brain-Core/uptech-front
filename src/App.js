@@ -7,6 +7,7 @@ import Product from './components/product/product.component';
 import Impact from './components/impacts/impact.component';
 import Partner from './components/partnes/partner.component';
 import Footer from './components/footer/footer.component';
+import Team from './components/team/team.component';
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
         <Route exact path="/product" component={Product}/>
         <Route exact path="/impact" component={Impact}/>
         <Route exact path="/partner" component={Partner}/>
+        <Route exact path="/team" component={Team}/>
         <Footer/>
       </Router>
     </div>
