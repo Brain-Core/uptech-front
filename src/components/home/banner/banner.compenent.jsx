@@ -1,7 +1,7 @@
 import React from 'react'
-import poule from '../../../assets/Rectangle2.png'
+// import poule from '../../../assets/Rectangle2.png'
 import agro from '../../../assets/agro.jpg'
-import vegetable from '../../../assets/agro2.png'
+// import vegetable from '../../../assets/agro2.png'
 import BannerItem from './banneritem.component'
 import './banner.component.css';
 
