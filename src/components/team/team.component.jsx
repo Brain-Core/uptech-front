@@ -6,7 +6,7 @@ import ellipse from '../../assets/Ellipse1.png';
 function Team() {
     return (
         <div style={{
-            marginTop:'150px',
+            marginTop:'160px',
             marginBottom:'50px'
         }}
         className="container"
