@@ -1,11 +1,11 @@
 .footer{
+    position: absolute;
+    width: 100%;
     padding: 20px;
-    display: flex;
 }
 
 .bg-blue{
     background-color: #16ABEC !important;
-
 }
 
 

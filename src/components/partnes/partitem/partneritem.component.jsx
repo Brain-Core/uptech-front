@@ -3,10 +3,10 @@ import './partneritem.component.css';
 
 function PartnerItem({img}) {
     return (
-        <div className="item col-md-12 mt-4">
+        <div className="item">
             <div className="card">
                 <img src={img} 
-                className="card-image" 
+                className="" 
                 alt="..."/>
             </div>
          </div>
