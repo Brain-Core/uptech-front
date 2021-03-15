@@ -1,7 +1,8 @@
 import React from 'react'
-import poule from '../../../assets/Rectangle2.png'
-import agro from '../../../assets/agro.jpg'
-import vegetable from '../../../assets/agro2.png'
+import poule from '../../../assets/image2.jpg'
+import pierre from '../../../assets/image1.jpg'
+// import agro from '../../../assets/agro.jpg'
+
 // import BannerItem from './banneritem.component'
 import './banner.component.css';
 
@@ -14,11 +15,11 @@ function Banner() {
           <img src={poule}
           className="d-block w-100" alt="..."/>
         </div>
-        <div className="carousel-item">
+        {/* <div className="carousel-item">
           <img src={agro}className="d-block w-100" alt="..."/>
-        </div>
+        </div> */}
         <div class="carousel-item">
-          <img src={vegetable} className="d-block w-100" alt="..."/>
+          <img src={pierre} className="d-block w-100" alt="..."/>
         </div>
       </div>
     </div>
