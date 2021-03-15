@@ -10,7 +10,12 @@ function HeaderTop() {
         <header className="header fixed-top">
             <div className="header__top">
                 <img
-                 src={logo} alt="..."/>
+                 src={logo}
+                 style={{
+                     width:'140px',
+                     objectFit:'contain'
+                 }}
+                  alt="..."/>
                 <p className="header__mail">info@up-tech.com</p>
                 <p>+243 823 751 631</p>
             </div>

@@ -71,9 +71,6 @@ function Footer() {
         
               <hr className="clearfix w-100 d-md-none"/>
         
-             
-              {/* <!-- Grid column --> */}
-        
             </div>
             {/* <!-- Grid row --> */}
         
@@ -81,8 +78,8 @@ function Footer() {
           {/* <!-- Footer Links --> */}
         
           {/* <!-- Copyright --> */}
-          <div className="footer-copyright text-white py-3 container ml-2"> 
-          <p className="text-white">© 2021 Nukushare Agro 2021</p> 
+          <div className="footer-copyright text-white py-3 container m-auto"> 
+          <p className="text-white font-weight-bold container">© 2021 Nukushare Agro 2021</p> 
           </div>
           {/* <!-- Copyright --> */}
         
