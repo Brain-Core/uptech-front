@@ -2,6 +2,7 @@ import React from 'react'
 import PartnerItem from './partitem/partneritem.component';
 import './partner.component.css';
 import somban from '../../assets/sombabien.png'
+import Carousel from 'react-elastic-carousel';
 
 function Partner() {
     return (
@@ -9,8 +10,8 @@ function Partner() {
             marginTop:'150px',
             marginBottom:'150px'
         }} className="container">
-            <h1>Our Partners</h1>
-            <div className="column">
+            <h1 className="text-center">Our Partners</h1>
+            <Carousel>
                 <PartnerItem
                 img={somban}
                 />
@@ -20,7 +21,7 @@ function Partner() {
                 <PartnerItem
                 img={somban}
                 />
-            </div>
+            </Carousel>
         </div>
     )
 }

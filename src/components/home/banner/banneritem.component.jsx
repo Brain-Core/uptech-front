@@ -1,9 +1,9 @@
 import React from 'react'
 import './banneritem.component.css';
 
-function BannerItem({image}) {
+function BannerItem({image, active}) {
     return (
-        <div class="carousel-item active">
+        <div className={`carousel-item ${active}`}>
         <img style={{
           height: '100vh',
           objectFit:'contain'
