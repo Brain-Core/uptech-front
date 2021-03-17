@@ -17,28 +17,30 @@ function Impact() {
           <div className="row">
               <ImpactItem
               img={poverity}
-              title='No Poverty'
-              paragraph="Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
-              unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-              when an unknown printer took a galley of type and scrambled it to make a type specimen book. "
+              title='1. No Poverty'
+              paragraph="Up-tech empowers farmers by giving them sustainable access to certified high quality inputs 
+              and agricultural services that optimize the productivity, profitability and economic growth of small producers. 
+              The increase in the incomes of our poultry producers and the increase of jobs in this sector guarantee 
+              the contribution of UP-Tech to the sustainable development objective 1, No poverty."
               />
               <ImpactItem
               img={poverity}
-              title='No Poverty'
-              paragraph="Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
-              unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-              when an unknown printer took a galley of type and scrambled it to make a type specimen book. "
+              title='2.	Zero Hunger'
+              paragraph="Ensuring the productivity of chickens in quantity and good quality poultry houses 
+              from our certified inputs ensures that producers are producing enough feed to feed the growing population 
+              of the region. We are therefore working diligently to achieve Sustainable Goal 2; Zero Hunger, 
+              ensuring that there is enough food to feed each individual. "
               />
 
               <ImpactItem
               img={poverity}
-              title='No Poverty'
-              paragraph="Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
-              unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-              when an unknown printer took a galley of type and scrambled it to make a type specimen book. "
+              title='3. Health, responsible production and climate action'
+              paragraph="Malnutrition is another major problem in the DRC. 
+              Most of the malnourished people in DRC come from rural areas where agriculture is the main employer. 
+              The concept of UP-Tech places food security, nutrition, health and climate-smart farming at the center 
+              of its fundamental priorities. Our dedication and passion is to serve producers the best of high-yielding, 
+              nutrient-rich inputs that ensure responsible poultry house production and a significant impact on the health 
+              and well-being of end consumers of farm products. "
               />
 
           </div>

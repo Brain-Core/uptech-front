@@ -10,10 +10,9 @@ function Product() {
     return (
         <div className="container" style={{marginTop:'150px',marginBottom:'50px'}}>
             <div>
-           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-           specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more 
-            recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
+           <p>Up-tech offers its producer customers a range of diversified essential products 
+               including foods of all ages, sanitary products and certain basic equipment. 
+               It also offers its customers quality, fresh and valuable chickens and eggs from the farm.</p> 
             </div>
             <div className="row">
                 <ProductItem
