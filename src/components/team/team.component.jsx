@@ -15,33 +15,33 @@ function Team() {
             <div className="row">
                 <TeamItem
                 img={ellipse}
-                name='Arnold SWARZENEGER'
-                position='Managing Director'
+                name='Hope TUMAINI IDI'
+                position='CEO & Business Manager'
                 />
                  <TeamItem
                 img={ellipse}
-                name='Arnold SWARZENEGER'
-                position='Managing Director'
+                name='Prince BALUME NGABOYEKA'
+                position='Operation Manager'
                 />
                  <TeamItem
                 img={ellipse}
-                name='Arnold SWARZENEGER'
-                position='Managing Director'
+                name='John Doe'
+                position='Accountant'
                 />
                  <TeamItem
                 img={ellipse}
-                name='Arnold SWARZENEGER'
-                position='Managing Director'
+                name='John Doe'
+                position='Accountant'
                 />
                  <TeamItem
                 img={ellipse}
-                name='Arnold SWARZENEGER'
-                position='Managing Director'
+                name='John Doe'
+                position='Accountant'
                 />
                  <TeamItem
                 img={ellipse}
-                name='Arnold SWARZENEGER'
-                position='Managing Director'
+                name='John Doe'
+                position='Accountant'
                 />
             </div>
         </div>
