@@ -1,7 +1,8 @@
 import React from 'react'
 import PartnerItem from './partitem/partneritem.component';
 import './partner.component.css';
-import somban from '../../assets/sombabien.png'
+import altech from '../../assets/altech.png'
+import altechlogo from '../../assets/altechlogo.png'
 // import Carousel from 'react-elastic-carousel';
 
 function Partner() {
@@ -13,40 +14,40 @@ function Partner() {
             <h1 className="text-center">Our Partners</h1>
             <div className="row">
             <PartnerItem
-                img={somban}
+                img={altech}
                 />
                 <PartnerItem
-                img={somban}
+                img={altechlogo}
+                />
+            <PartnerItem
+                img={altech}
                 />
                 <PartnerItem
-                img={somban}
+                img={altechlogo}
+                />
+            <PartnerItem
+                img={altech}
                 />
                 <PartnerItem
-                img={somban}
+                img={altechlogo}
+                />
+            <PartnerItem
+                img={altech}
                 />
                 <PartnerItem
-                img={somban}
+                img={altechlogo}
+                />
+            <PartnerItem
+                img={altech}
                 />
                 <PartnerItem
-                img={somban}
+                img={altechlogo}
+                />
+            <PartnerItem
+                img={altech}
                 />
                 <PartnerItem
-                img={somban}
-                />
-                <PartnerItem
-                img={somban}
-                />
-                <PartnerItem
-                img={somban}
-                />
-                <PartnerItem
-                img={somban}
-                />
-                <PartnerItem
-                img={somban}
-                />
-                <PartnerItem
-                img={somban}
+                img={altechlogo}
                 />
             </div>
             {/* <Carousel itemsToShow={3}>
