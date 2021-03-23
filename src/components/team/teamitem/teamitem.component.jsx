@@ -10,8 +10,8 @@ function TeamItem({img,name,position}) {
             className="img-fluid"
              src={img} 
              alt="img_name"/>
-            <p className="font-weight-bold">{name}</p>
-            <p className="small">{position}</p>
+            <p className="font-weight-bold mt-4">{name}</p>
+            <p className="small mt-0">{position}</p>
         </div>
     )
 }
