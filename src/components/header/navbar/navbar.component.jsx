@@ -27,7 +27,7 @@ function NavBar() {
                 <Link className="nav-link text-light font-weight-bold" to="/team">OurTeam</Link>
                 </li>
                 <li className="nav-item">
-                <Link className="nav-link text-light font-weight-bold" to="#">Contact Us</Link>
+                <Link className="nav-link text-light font-weight-bold" to="/contact">Contact Us</Link>
                 </li>
             </ul>
             </div>

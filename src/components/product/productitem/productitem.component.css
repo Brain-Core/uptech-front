@@ -1,4 +1,4 @@
-.card{
+.product-card{
     width: 18rem !important;
     margin: 5px;
     transition: transform .3s ease;
@@ -13,7 +13,7 @@
     line-height: 2.5rem;
 }
 
-.card:hover{
+.product-card:hover{
     transform: scale(1.1);
 }
 
