@@ -1,9 +1,15 @@
 import React from 'react'
 import './product.component.css';
 import ProductItem from './productitem/productitem.component';
-import mais from '../../assets/mais.png'
-import oeufs from '../../assets/oeuf.png'
-import poule from '../../assets/poule.png'
+import FeedMash from '../../assets/feed_mash.jpg'
+import FeedPellet from '../../assets/feed_pellet.jpg'
+import FeedCrumble from '../../assets/feed_crumble.jpg'
+import Amin from '../../assets/amin.jpg'
+import Cibus from '../../assets/cibus.jpg'
+import Sulfa from '../../assets/sulfadim.jpg'
+import Feeder from '../../assets/feeder.jpg'
+import Drinker from '../../assets/deinker.jpg'
+import Chicken from '../../assets/chicken.jpg'
 
 
 function Product() {
@@ -16,40 +22,40 @@ function Product() {
             </div>
             <div className="row">
                 <ProductItem
+                title='Mash Feed'
+                img={FeedMash}
+                />
+                 <ProductItem
+                title='Pellet Feed'
+                img={FeedPellet}
+                />
+                 <ProductItem
+                title='Crumble Feed'
+                img={FeedCrumble}
+                />
+                 <ProductItem
                 title='Mais de paris'
-                img={mais}
+                img={Amin}
                 />
                  <ProductItem
                 title='Possins hollandais'
-                img={poule}
+                img={Cibus}
                 />
                  <ProductItem
                 title='Oeuf aiguisé'
-                img={oeufs}
-                />
-                 <ProductItem
-                title='Mais de paris'
-                img={mais}
-                />
-                 <ProductItem
-                title='Possins hollandais'
-                img={poule}
-                />
-                 <ProductItem
-                title='Oeuf aiguisé'
-                img={oeufs}
+                img={Sulfa}
                 />
                 <ProductItem
                 title='Mais de paris'
-                img={mais}
+                img={Feeder}
                 />
                  <ProductItem
                 title='Possins hollandais'
-                img={poule}
+                img={Drinker}
                 />
                  <ProductItem
                 title='Oeuf aiguisé'
-                img={oeufs}
+                img={Chicken}
                 />
             </div>
         </div>
