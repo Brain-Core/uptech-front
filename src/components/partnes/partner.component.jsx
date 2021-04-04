@@ -7,11 +7,9 @@ import altechlogo from '../../assets/altechlogo.png'
 
 function Partner() {
     return (
-        <div style={{
-            marginTop:'50px',
-            marginBottom:'50px'
-        }} className="container">
-            <h1 className="text-center">Our Partners</h1>
+        <div className="patner">
+            <h1 className="text-center">Our Patners</h1>
+        <div className="container patner__center">
             <div className="row">
             <PartnerItem
                 img={altech}
@@ -70,6 +68,7 @@ function Partner() {
                 img={somban}
                 />
             </Carousel> */}
+        </div>
         </div>
     )
 }
