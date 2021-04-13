@@ -4,10 +4,17 @@
     padding-bottom: 0 !important;
 } */
 
+.d-block{
+    height: 100vh !important;
+    object-fit: cover;
+}
+
 
 @media (min-width: 320px) and (max-width: 580px) {
     .carousel{
         padding-left: 0 !important;
         padding-right: 0 !important;
     }
+
+    
 }

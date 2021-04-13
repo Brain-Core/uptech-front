@@ -12,15 +12,12 @@ function HeaderTop() {
             <div className="header__top">
                 <Link to='/'>
                 <img
+                className="header__img"
                  src={logo}
-                 style={{
-                     width:'140px',
-                     objectFit:'contain'
-                 }}
                   alt="..."/>
                 </Link>
                 <p className="header__mail">info@up-tech.com</p>
-                <p>+243 823 751 631</p>
+                <p className="header__phone">+243 823 751 631</p>
             </div>
             <div>
                 <NavBar/>
