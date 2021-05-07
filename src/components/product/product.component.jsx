@@ -34,27 +34,27 @@ function Product() {
                 img={FeedCrumble}
                 />
                  <ProductItem
-                title='Mais de paris'
+                title="Amin'Total"
                 img={Amin}
                 />
                  <ProductItem
-                title='Possins hollandais'
+                title='Cibus Premix'
                 img={Cibus}
                 />
                  <ProductItem
-                title='Oeuf aiguisé'
+                title='Sulfadimidin'
                 img={Sulfa}
                 />
                 <ProductItem
-                title='Mais de paris'
+                title='Feeder'
                 img={Feeder}
                 />
                  <ProductItem
-                title='Possins hollandais'
+                title='Drinker'
                 img={Drinker}
                 />
                  <ProductItem
-                title='Oeuf aiguisé'
+                title='Chiken'
                 img={Chicken}
                 />
             </div>

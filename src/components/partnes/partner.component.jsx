@@ -11,7 +11,13 @@ function Partner() {
             <h1 className="text-center">Our Patners</h1>
         <div className="container patner__center">
             <div className="row">
-            <PartnerItem
+            {/* <PartnerItem
+                img={altech}
+                /> */}
+                <PartnerItem
+                img={altechlogo}
+                />
+            {/* <PartnerItem
                 img={altech}
                 />
                 <PartnerItem
@@ -40,13 +46,7 @@ function Partner() {
                 />
                 <PartnerItem
                 img={altechlogo}
-                />
-            <PartnerItem
-                img={altech}
-                />
-                <PartnerItem
-                img={altechlogo}
-                />
+                /> */}
             </div>
             {/* <Carousel itemsToShow={3}>
                 <PartnerItem
