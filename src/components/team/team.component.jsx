@@ -1,48 +1,30 @@
 import React from 'react'
 import './team.component.css';
 import TeamItem from './teamitem/teamitem.component';
-import ellipse from '../../assets/Ellipse1.png';
+import hope from '../../assets/hope.png';
+import mweng from '../../assets/mweng.png';
 
 function Team() {
     return (
         <div style={{
             marginTop:'160px',
-            marginBottom:'50px'
+            marginBottom:'299px'
         }}
         className="container"
         >
             <h1 className="text-center mb-4">Our Team</h1>
             <div className="row">
                 <TeamItem
-                img={ellipse}
+                img={hope}
                 name='Hope TUMAINI IDI'
                 position='CEO & Business Manager'
                 />
                  <TeamItem
-                img={ellipse}
+                img={mweng}
                 name='Prince BALUME NGABOYEKA'
-                position='Operation Manager'
+                position='CEO & Operation Manager'
                 />
-                 <TeamItem
-                img={ellipse}
-                name='John Doe'
-                position='Accountant'
-                />
-                 <TeamItem
-                img={ellipse}
-                name='John Doe'
-                position='Accountant'
-                />
-                 <TeamItem
-                img={ellipse}
-                name='John Doe'
-                position='Accountant'
-                />
-                 <TeamItem
-                img={ellipse}
-                name='John Doe'
-                position='Accountant'
-                />
+                 
             </div>
         </div>
     )
