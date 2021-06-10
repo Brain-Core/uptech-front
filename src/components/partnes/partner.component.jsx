@@ -1,7 +1,7 @@
 import React from 'react'
 import PartnerItem from './partitem/partneritem.component';
 import './partner.component.css';
-import altech from '../../assets/altech.png'
+// import altech from '../../assets/altech.png'
 import altechlogo from '../../assets/altechlogo.png'
 // import Carousel from 'react-elastic-carousel';
 
