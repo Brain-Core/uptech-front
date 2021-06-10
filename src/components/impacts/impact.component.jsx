@@ -16,7 +16,9 @@ function Impact() {
           <h1 className="text-center" style={{
               marginBottom:'30px'
           }}>Our Impacts</h1> 
-          <div className="row">
+          <div className="row" style={{
+              textAlign: 'justify',  textJustify: 'inter-word'
+          }}>
               <ImpactItem
               img={poverity}
               title='No Poverty'
