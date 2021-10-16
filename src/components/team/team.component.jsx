@@ -1,10 +1,21 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import './team.component.css';
 import TeamItem from './teamitem/teamitem.component';
 import hope from '../../assets/hope.png';
 import mweng from '../../assets/mweng.png';
+import axios from 'axios';
+
 
 function Team() {
+    const [teams, setTeams] = useState([]);
+
+    useEffect(async() => {
+        const response = await axios.get('https://uptech-admin.herokuapp.com/teams');
+        setTeams(response.data);
+    }, [])
+
+ 
+
     return (
         <div style={{
             marginTop:'160px',
@@ -14,17 +25,14 @@ function Team() {
         >
             <h1 className="text-center mb-4">Our Team</h1>
             <div className="row">
-                <TeamItem
-                img={hope}
-                name='Hope TUMAINI IDI'
-                position='CEO & Business Manager'
-                />
-                 <TeamItem
-                img={mweng}
-                name='Prince BALUME NGABOYEKA'
-                position='CEO & Operation Manager'
-                />
-                 
+                {teams.map((team, i)=>(
+                    <TeamItem
+                    key={i}
+                      img={team.avatar}
+                      name={team.completeName}
+                      position={team.position}
+                    />
+                ))}     
             </div>
         </div>
     )
