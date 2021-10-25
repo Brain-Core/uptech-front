@@ -8,8 +8,9 @@ function Team() {
     const [teams, setTeams] = useState([]);
 
     useEffect(() => {
-        const response =  axios.get('https://uptech-admin.herokuapp.com/teams');
-        setTeams(response.data);
+        axios.get('https://uptech-admin.herokuapp.com/teams')
+        .then(res => setTeams(res.data))
+        .catch(err=> console.log(err))
     }, [])
 
  

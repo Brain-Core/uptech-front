@@ -7,8 +7,10 @@ function Product() {
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
-        const response =  axios.get('https://uptech-admin.herokuapp.com/products');
-        setProducts(response.data);
+        axios.get('https://uptech-admin.herokuapp.com/products')
+        .then(res => setProducts(res.data))
+        .catch(err=> console.log(err))
+       
     }, [])
 
    

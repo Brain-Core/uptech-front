@@ -9,8 +9,10 @@ function Partner() {
     const [partners, setPartners] = useState([]);
 
     useEffect(() => {
-        const response =  axios.get('https://uptech-admin.herokuapp.com/partners');
-        setPartners(response.data);
+        axios.get('https://uptech-admin.herokuapp.com/partners')
+        .then(res => setPartners(res.data))
+        .catch(err=> console.log(err))
+       
     }, [])
 
 
@@ -22,7 +24,7 @@ function Partner() {
             {/* <PartnerItem
                 img={altech}
                 /> */}
-                {partners.map((partner, i)=>(
+                {partners?.map((partner, i)=>(
                      <PartnerItem
                      key={i}
                      img={partner.logo}/>
