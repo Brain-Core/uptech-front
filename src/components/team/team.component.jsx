@@ -1,16 +1,14 @@
 import React, {useState, useEffect} from 'react'
 import './team.component.css';
 import TeamItem from './teamitem/teamitem.component';
-import hope from '../../assets/hope.png';
-import mweng from '../../assets/mweng.png';
 import axios from 'axios';
 
 
 function Team() {
     const [teams, setTeams] = useState([]);
 
-    useEffect(async() => {
-        const response = await axios.get('https://uptech-admin.herokuapp.com/teams');
+    useEffect(() => {
+        const response =  axios.get('https://uptech-admin.herokuapp.com/teams');
         setTeams(response.data);
     }, [])
 

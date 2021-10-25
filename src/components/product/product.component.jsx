@@ -6,8 +6,8 @@ import axios from 'axios';
 function Product() {
     const [products, setProducts] = useState([]);
 
-    useEffect(async() => {
-        const response = await axios.get('https://uptech-admin.herokuapp.com/products');
+    useEffect(() => {
+        const response =  axios.get('https://uptech-admin.herokuapp.com/products');
         setProducts(response.data);
     }, [])
 

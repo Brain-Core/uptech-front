@@ -3,14 +3,13 @@ import PartnerItem from './partitem/partneritem.component';
 import axios from 'axios';
 import './partner.component.css';
 // import altech from '../../assets/altech.png'
-import altechlogo from '../../assets/altechlogo.png'
 // import Carousel from 'react-elastic-carousel';
 
 function Partner() {
     const [partners, setPartners] = useState([]);
 
-    useEffect(async() => {
-        const response = await axios.get('https://uptech-admin.herokuapp.com/partners');
+    useEffect(() => {
+        const response =  axios.get('https://uptech-admin.herokuapp.com/partners');
         setPartners(response.data);
     }, [])
 
