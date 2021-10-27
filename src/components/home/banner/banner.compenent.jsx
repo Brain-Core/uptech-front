@@ -15,9 +15,7 @@ function Banner() {
           <img src={home1}
           className="d-block w-100" alt="..."/>
         </div>
-        {/* <div className="carousel-item">
-          <img src={agro}className="d-block w-100" alt="..."/>
-        </div> */}
+        
         <div class="carousel-item">
           <img src={home3} className="d-block w-100" alt="..."/>
         </div>

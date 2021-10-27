@@ -3,17 +3,13 @@ import './team.component.css';
 import TeamItem from './teamitem/teamitem.component';
 import axios from 'axios';
 
-
 function Team() {
     const [teams, setTeams] = useState([]);
 
-    useEffect(() => {
-        axios.get('https://uptech-admin.herokuapp.com/teams')
-        .then(res => setTeams(res.data))
-        .catch(err=> console.log(err))
-    }, [])
-
- 
+    useEffect(async() => {
+        const response = await axios.get('https://uptech-admin.herokuapp.com/teams');
+        setTeams(response.data);
+    }, []) 
 
     return (
         <div style={{

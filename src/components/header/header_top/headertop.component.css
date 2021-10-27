@@ -16,7 +16,8 @@
 }
 
 .header__mail{
-    color:#16ABEC;  
+    color:#16ABEC;
+    cursor: pointer;  
 }
 
 @media (min-width: 320px) and (max-width: 580px) {

@@ -13,8 +13,6 @@ function Product() {
        
     }, [])
 
-   
-
     return (
         <div className="container" style={{marginTop:'150px',marginBottom:'50px'}}>
             <div>
