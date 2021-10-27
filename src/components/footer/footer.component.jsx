@@ -38,7 +38,7 @@ function Footer() {
               <div className="col mx-auto">
              
                 <ul className="list-unstyled">
-                <Link className='nav-link font-weight-bold text-white'>UP-Tech || +243 823 751 631</Link>
+                <Link className='nav-link font-weight-bold text-white'>Uptech-Agro || +243 823 751 631</Link>
                 </ul>
         
               </div>
@@ -79,7 +79,7 @@ function Footer() {
         
           {/* <!-- Copyright --> */}
           <div className="footer-copyright text-white py-3 container m-auto"> 
-          <p className="text-white font-weight-bold container">© UP-Tech 2021</p> 
+          <p className="text-white font-weight-bold container">© Uptech-Agro 2021</p> 
           </div>
           {/* <!-- Copyright --> */}
         
