@@ -8,7 +8,6 @@ import Impact from './components/impacts/impact.component';
 import Footer from './components/footer/footer.component';
 import Team from './components/team/team.component';
 import Contact from './components/contact/contact.component';
-import Admin from './components/admin/Admin';
 
 function App() {
   return (
