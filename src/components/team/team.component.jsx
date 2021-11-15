@@ -6,9 +6,12 @@ import axios from 'axios';
 function Team() {
     const [teams, setTeams] = useState([]);
 
-    useEffect(async() => {
+    const fetchData = async () =>{
         const response = await axios.get('https://uptech-admin.herokuapp.com/teams');
         setTeams(response.data);
+    }
+    useEffect(() => {
+       fetchData()
     }, []) 
 
     return (
@@ -20,7 +23,7 @@ function Team() {
         >
             <h1 className="text-center mb-4">Our Team</h1>
             <div className="row">
-                {teams.map((team, i)=>(
+                {teams?.map((team, i)=>(
                     <TeamItem
                     key={i}
                       img={team.avatar}

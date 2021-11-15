@@ -29,6 +29,10 @@ function NavBar() {
                 <li className="nav-item">
                 <Link className="nav-link text-light font-weight-bold" to="/contact">Contact Us</Link>
                 </li>
+                <li className="nav-item">
+                <Link className="ml-2 btn btn-primary  rounded text-light font-weight-bold" 
+                to={{ pathname: "https://uptech-admin.herokuapp.com/"}} target="_blank">Sign in</Link>
+                </li>
             </ul>
             </div>
         </div>

@@ -18,10 +18,6 @@ function App() {
         <Route exact path="/product" component={Product}/>
         <Route exact path="/impact" component={Impact}/>
         <Route exact path="/team" component={Team}/>
-        <Route exact path="/sys-admin" component={() => { 
-            window.location.href = 'https://uptech-admin.herokuapp.com/'; 
-            return null;
-        }}/>
         <Route exact path="/contact" component={Contact}/>
         <Footer/>
       </Router>
